@@ -1,0 +1,22 @@
+{
+  "name": "command-line-calculator",
+  "version": "1.0.0",
+  "description": "A TypeScript calculator.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maaz ur Rehman Shah",
+  "license": "ISC",
+  "bin": {
+    "calculator": "index.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
